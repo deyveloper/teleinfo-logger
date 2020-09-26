@@ -1,6 +1,6 @@
 const { Telegram } = require('telegraf');
 
-class TelegramErrorer {
+class TeleInfo {
     logger;
     bot;
 
@@ -19,4 +19,4 @@ class TelegramErrorer {
     };
 };
 
-module.exports = TelegramErrorer;
+module.exports = TeleInfo;
